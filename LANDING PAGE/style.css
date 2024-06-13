@@ -1,0 +1,328 @@
+* {
+   color: wheat;
+   font-family: garamond;
+   margin: 0px;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #12372A;
+   width: 1440px;
+}
+
+.navbar {
+   width: 1440px;
+   height: 60px;
+   background-color: #436850;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: left;
+   padding-left: 20px;
+
+
+}
+
+.socialmedias {
+   width: 1100px;
+   height: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-between;
+   margin-left: 60px;
+
+
+}
+
+.logo {
+
+   width: 230px;
+   height: 60px;
+   font-size: 25px;
+   font-weight: 500;
+   color: wheat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+}
+
+.logo:hover {
+   background-color: #12372A;
+   transition: all 0.5s ease-in;
+   font-size: 30px;
+
+}
+
+.instagram {
+   background-image: url(39386d212ac9a4626cd4f3fb25466503-removebg-preview.png);
+   height: 35px;
+   width: 35px;
+   background-size: cover;
+
+}
+
+.whatsapp {
+   background-image: url(whatsapp-logo-icon-isolated-on-transparent-background-free-png.webp);
+   height: 50px;
+   width: 50px;
+   background-size: cover;
+
+
+}
+
+.twitter {
+   background-image: url(twitter-logo-twitter-logo-transparent-twitter-icon-transparent-free-free-png.webp);
+   height: 50px;
+   width: 50px;
+   background-size: cover;
+   margin-left: 6px;
+
+
+}
+
+.linkedin {
+   background-image: url(linkedin-logo-linkedin-icon-transparent-free-png.webp);
+   height: 50px;
+   width: 60px;
+   background-size: cover;
+}
+
+.gmail {
+   background-image: url(Gmail_Logo_512px.png);
+   height: 25px;
+   width: 35px;
+   background-size: cover;
+}
+
+.a2 {
+   text-decoration: none;
+
+}
+
+.a2:hover {
+   background-color: #12372A;
+   font-size: 20px;
+   transition: all 0.5s ease-in;
+   text-decoration: underline;
+
+}
+
+.heading1 {
+   font-size: 70px;
+   text-align: center;
+}
+
+.bgwallpaper1 {
+   width: 1440px;
+   height: 400px;
+   background-color: transparent;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-evenly;
+
+}
+
+.award1 {
+   width: 320px;
+   height: 320px;
+   background-color: #436850;
+   border: 2px solid black;
+   border-radius: 10%;
+   margin: 20px;
+   background-image: url(governor.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.award2 {
+   width: 320px;
+   height: 320px;
+   background-color: #436850;
+   border: 2px solid black;
+   border-radius: 10%;
+   margin: 20px;
+   background-image: url(kiitmun.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.award3 {
+   width: 320px;
+   height: 320px;
+   background-color: #436850;
+   border: 2px solid black;
+   border-radius: 10%;
+   margin: 20px;
+   background-image: url(xismun.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.award4 {
+   width: 320px;
+   height: 320px;
+   background-color: #436850;
+   border: 2px solid black;
+   border-radius: 10%;
+   margin: 20px;
+   background-image: url(apeejay.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.a1 {
+   width: 320px;
+   height: 320px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+   color: transparent;
+   transition: all 500ms ease-in-out;
+   font-size: 75px;
+   text-align: center;
+
+
+}
+
+.a1:hover {
+   background-color: wheat;
+   color: black;
+   font-size: 35px;
+   opacity: 0.8;
+   border-radius: 10%;
+
+}
+
+.sportsiplay{
+   width: 1440px;
+   height: 350px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-around;
+
+}
+
+.sportspic{
+   width: 650px;
+   height: 325px;
+   border: 2px solid black;
+
+}
+
+#sportspic-1{
+
+   background-image: url(sportspic1png.png);
+   background-size: cover;
+
+}
+
+#sportspic-2{
+
+   background-image: url(sportspic2.png);
+   background-size: cover;
+
+}
+.a3 {
+   width: 650px;
+   height: 320px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+   color: transparent;
+   transition: all 500ms ease-in-out;
+   text-align: center;
+
+
+}
+
+.a3:hover {
+   background-color: wheat;
+   color: black;
+   font-size: 40px;
+   opacity: 0.8;
+   border-radius: 3%;
+
+}
+
+.about-me{
+   font-size: 40px;
+   text-align: center;
+   padding: 30px;
+}
+
+
+.skills{
+   width:1440px;
+   height: 70px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+   justify-content: space-evenly;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.skill-type{
+   width:250px;
+   height: 70px;
+   border: 2px solid black;
+   background-color: #436850;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+
+}
+footer{
+   width:1440px;
+   height: 70px;
+   background-color: wheat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+}
+
+.subskill{
+   text-decoration: none;
+   font-size: 30px;
+}
+
+.subskill:hover{
+   text-decoration: underline;
+   font-size: 40px;
+
+}
+
+form{
+   font-size: 30px;
+   margin: 20px;
+}
+
+.logoss{
+text-align: center;
+font-size: 30px;
+color: #12372A;
+}
