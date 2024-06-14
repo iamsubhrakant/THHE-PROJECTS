@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+body{
+    background-color: black;
+}
+
+.navbar{
+    width: 100%;
+    height: 8vh;
+    background-color: #08D9D6;
+    text-align: center;
+
+}
+
+.navbar h1{
+    color: #FF2E63;
+    font-size: 7vh;
+    font-weight: 600;
+
+}
+
+@media screen and (max-width: 506px) {
+
+    .navbar{
+        width: 100%;
+        height: 8vh;
+        background-color: #08D9D6;
+        text-align: center;
+    
+    }
+
+    .navbar h1 {
+     font-size: 5vh;
+     font-weight: 600;
+     padding-top: 1vh;
+    }
+  }
+
+  @media screen and (max-width: 369px) {
+
+    .navbar{
+        width: 100%;
+        height: 6vh;
+        background-color: #08D9D6;
+        text-align: center;
+    
+    }
+
+    .navbar h1 {
+     font-size: 3vh;
+     font-weight: 600;
+   
+    }
+  }
+
+  .container{
+    text-align: center;
+  }
+
+  button{
+    background-color: #FF2E63;
+    color: aliceblue;
+    border-radius: 50%;
+    height: 10vh;
+    width: 10vh;
+    font-size: 5vh;
+    border-color: #08D9D6;
+    
+  }
+
+  button:hover{
+    background-color: #000000;
+
+  }
+
+  button.operators{
+    background-color: rgb(0, 64, 255)
+  }
+
+  button.operators:hover{
+    background-color: #000000;
+
+  }
+
+  @media screen and (max-width: 506px) {
+
+    button{
+        height: 10vh;
+        width: 10vh;
+        font-size: 4vh;
+        border-color: #08D9D6;
+
+        
+}
+
+  }
+
+  @media screen and (max-width: 369px) {
+
+    button{
+        height: 3.5vh;
+        width: 3.5vh;
+        font-size: 1.2vh;
+        border-color: #08D9D6;
+        
+}
+    
+  }
+
+  .container{
+    margin-top: 3vh;
+  }
+
+  .box{
+    font-size: 4vh;
+    margin: 1vh;
+    color: white;
+    border: 0.2vh solid white;
+    height: 20vh;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 1%;
+    font-weight: 700;
+    padding: 0px;
+    background-color:black;
+  }
+
+  @media screen and (max-width: 506px) {
+
+    .box{
+      font-size: 4vh;
+      margin: 1.5vh;
+      color: white;
+      border: 0.2vh solid white;
+      height: 10vh;
+      text-align: right;
+      font-family: 'Times New Roman', Times, serif;
+      border-radius: 1%;
+      font-weight: 700;
+      padding: 0px;
+      background-color:black;
+    }
+        
+}
+
+@media screen and (max-width: 369px) {
+
+  .box{
+    font-size: 1.5vh;
+    margin: 1vh;
+    color: white;
+    border: 0.2vh solid white;
+    height: 10vh;
+    background-color:black;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 1%;
+    font-weight: 700;
+    padding: 0px;
+  }
+  
+}
+
+
+  
