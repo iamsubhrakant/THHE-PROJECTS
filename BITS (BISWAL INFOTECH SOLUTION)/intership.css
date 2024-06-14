@@ -1,0 +1,341 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+
+
+}
+
+body {
+    background-color: #072342;
+}
+
+.navbar {
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    justify-content: left;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.navbar:hover {
+    background-color: #05162a;
+    transition: all 0.8s ease-out;
+
+
+}
+
+.websitelogo {
+    width: 200px;
+    height: 45px;
+    border: 2px solid transparent;
+    background-image: url(companylogo-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.homemenu {
+    color: white;
+    width: 200px;
+    height: 45px;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.homemenu:hover {
+    background-color: #3F72AF;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+    cursor: p;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+
+}
+
+.copyright {
+    height: 50px;
+    width: 1440px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+
+
+
+}
+
+.copyrightwrite {
+    padding-left: 630px;
+
+
+
+}
+
+.footertab {
+    width: 1440px;
+    height: 230px;
+    background-color: black;
+    color: #DBE2EF;
+    text-align: center;
+
+}
+
+.footer {
+    font-size: 15px;
+    padding: 10px;
+}
+
+
+
+
+.last {
+    width: 1440px;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.socialmedias {
+    width: 1440px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #DBE2EF;
+
+}
+
+.instagram {
+    background-image: url(39386d212ac9a4626cd4f3fb25466503-removebg-preview.png);
+    height: 35px;
+    width: 35px;
+    background-size: cover;
+    margin: 10px;
+
+}
+
+.whatsapp {
+    background-image: url(whatsapp-logo-icon-isolated-on-transparent-background-free-png.webp);
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    margin: 10px;
+
+
+}
+
+.twitter {
+    background-image: url(twitter-logo-twitter-logo-transparent-twitter-icon-transparent-free-free-png.webp);
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    margin: 10px;
+
+
+}
+
+.linkedin {
+    background-image: url(linkedin-logo-linkedin-icon-transparent-free-png.webp);
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    margin: 10px;
+}
+
+.gmail {
+    background-image: url(Gmail_Logo_512px.png);
+    height: 25px;
+    width: 35px;
+    background-size: cover;
+    margin: 15px;
+}
+
+.a2 {
+    text-decoration: none;
+    color: #DBE2EF;
+    font-weight: 700;
+
+}
+
+.a2:hover {
+    font-size: 20px;
+    transition: all 0.5s ease-in;
+    text-decoration: underline;
+    color: red;
+
+}
+
+h3 {
+    font-size: 25px;
+    padding: 15px;
+    text-decoration: underline;
+}
+
+.welcomemessage2 {
+    height: 70px;
+    width: 1440px;
+    background-color: #3F72AF;
+    font-size: 55px;
+    color: #DBE2EF;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+
+.tbip {
+    height: 150vh;
+    width: 100%;
+    /* background-color: #DBE2EF; */
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #DBE2EF;
+    flex-wrap: wrap;
+
+
+}
+
+.tbipcontent {
+
+    height: 150vh;
+    width: 100%;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 2vh;
+    justify-content: space-evenly;
+
+}
+
+.h3headings {
+
+    font-size: 4.5vh;
+    text-decoration: underline;
+    background-color: black;
+}
+
+.h3headings:hover {
+
+    font-size: 4.5vh;
+    text-decoration: underline;
+    border: 0.3vh solid transparent;
+
+
+
+}
+
+.pcontents {
+    font-size: 2.3vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    text-align: center;
+    font-weight: 800;
+    padding: 2vh;
+
+
+}
+
+.certificate {
+
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 2vh;
+
+}
+
+.cert {
+    height: 50vh;
+    width: 38.9%;
+
+}
+
+.cert img {
+    height: 100%;
+    width: 100%;
+}
+
+.steps {
+    height: 50vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.step1 {
+    height: 15%;
+    width: 100%;
+    font-size: 3vh;
+    margin-left: 2vh;
+    font-weight: 700;
+    color: aliceblue;
+
+
+}
+
+span {
+    color: aqua;
+    text-decoration: underline;
+}
+.click{
+    
+    background-color: yellow;
+    color: red;
+    font-size: 4.5vh;
+    text-decoration: none;
+}
+
+.click a{
+    text-decoration: underline;
+    color: red;
+
+}
+
+.click a:hover{
+
+    color: red;
+    font-size: 4.8vh;
+
+
+}

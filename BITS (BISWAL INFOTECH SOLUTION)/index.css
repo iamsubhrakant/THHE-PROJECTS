@@ -1,0 +1,394 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #072342;
+
+
+}
+
+.navbar {
+    background-color: black;
+    width: 1440px;
+    height: 50px;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    justify-content: left;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1vh;
+ 
+}
+
+.navbar:hover {
+    background-color: #05162a;
+    transition: all 0.8s ease-in-out;
+
+
+}
+
+
+
+
+
+.websitelogo {
+    width: 200px;
+    height: 45px;
+    border: 2px solid transparent;
+    background-image: url(companylogo-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.homemenu {
+    color: white;
+    width: 200px;
+    height: 45px;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.homemenu:hover {
+    background-color: #3F72AF;
+    font-size: 20px;
+    transition: all 0.6s ease-in-out;
+    cursor: p;
+}
+
+.a {
+    text-decoration: none;
+    color: #DBE2EF;
+}
+
+.a:hover {
+    color: black;
+
+}
+
+.banner {
+    width: 1440px;
+    height: 70px;
+    background-color: #3F72AF;
+
+
+}
+
+.bannerlogo {
+    width: 1440px;
+    height: 100px;
+    text-decoration: none;
+    position: relative;
+}
+
+.bannerlogo.slide::after,
+.bannerlogo.slide::before {
+    width: 1440px;
+    height: 100px;
+    content: "BITS: BISWAL  INFOTECH  SOLUTIONS ";
+    position: absolute;
+    font-size: 55px;
+    text-align: center;
+    transition: all 1ms ease-in-out;
+    top: 20px;
+    text-decoration: none;
+    color: #DBE2EF;
+    top: 0;
+    font-weight: 600;
+}
+
+.bannerlogo.slide:hover::after {
+    top: -150px;
+}
+
+
+.bannerlogo.slide::before {
+    content: "Shaping Tomorrow's World with BITS";
+    top: 150px;
+    visibility: hidden;
+}
+
+.bannerlogo.slide:hover::before {
+    top: 0px;
+    font-style: italic;
+    visibility: initial;
+}
+
+.bgwallpaper {
+    width: 1440px;
+    height: 500px;
+    background-image: url(full-shot-man-experiencing-virtual-reality.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+
+.backgroundtext {
+    width: 1440px;
+    height: 500px;
+    font-size: 1px;
+    text-align: center;
+    color: white;
+    transition: all 1ms ease-in-out;
+    opacity: 0;
+    margin-top: 5px;
+}
+
+
+.backgroundtext:hover {
+    color: #DBE2EF;
+    opacity: 1;
+    font-size: 20px;
+    background-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.associates {
+    width: 1440px;
+    height: 450px;
+    background-image: url(dreamcompany.png);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+.second-wallpaper {
+    width: 1440px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imagetag {
+
+    font-size: 30px;
+    color: #DBE2EF;
+    text-align: center;
+    display: inline;
+
+}
+
+.collaborators {
+    width: 1440px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.collabs {
+    height: 130px;
+    width: 130px;
+    background-color: white;
+    border-radius: 10%;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+#eleganos {
+    background-image: url(eleganos-removebg-preview.png);
+
+
+}
+
+#surakshya {
+    background-image: url(Beige_and_White_Be_Yourself_Square_Pillow-removebg-preview.png);
+
+}
+
+#myheritagetrails {
+    background-image: url(jetsolution.png);
+
+}
+
+#dublieu {
+    background-image: url(DUBLIEU\ LOGO.png);
+
+}
+
+#apnacollege {
+    background-image: url(apnacollege.png);
+
+}
+
+#bitroot {
+    background-image: url(Untitled\ design-5.png);
+}
+
+#ymun {
+    background-image: url(YMUN.LOGO.png);
+
+}
+
+.links {
+    height: 130px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    font-size: 50px;
+    color: transparent;
+    font-weight: 600;
+    transition: all 1s ease-in-out;
+
+
+}
+
+.links:hover {
+    background-color: black;
+    opacity: 0.9;
+    border-radius: 10%;
+    color: white;
+    font-size: 17px;
+    border: 5px solid white;
+
+
+}
+
+.copyright {
+    height: 50px;
+    width: 1440px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+
+
+
+}
+
+.copyrightwrite {
+    padding-left: 630px;
+
+
+
+}
+
+.footertab {
+    width: 1440px;
+    height: 230px;
+    background-color: black;
+    color: #DBE2EF;
+    text-align: center;
+
+}
+
+.footer {
+    font-size: 15px;
+    padding: 10px;
+}
+
+
+
+
+.last {
+    width: 1440px;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.socialmedias {
+    width: 1440px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #DBE2EF;
+
+}
+
+.instagram {
+    background-image: url(39386d212ac9a4626cd4f3fb25466503-removebg-preview.png);
+    height: 35px;
+    width: 35px;
+    background-size: cover;
+    margin: 10px;
+
+}
+
+.whatsapp {
+    background-image: url(whatsapp-logo-icon-isolated-on-transparent-background-free-png.webp);
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    margin: 10px;
+
+
+}
+
+.twitter {
+    background-image: url(twitter-logo-twitter-logo-transparent-twitter-icon-transparent-free-free-png.webp);
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    margin: 10px;
+
+
+}
+
+.linkedin {
+    background-image: url(linkedin-logo-linkedin-icon-transparent-free-png.webp);
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    margin: 10px;
+}
+
+.gmail {
+    background-image: url(Gmail_Logo_512px.png);
+    height: 25px;
+    width: 35px;
+    background-size: cover;
+    margin: 15px;
+}
+
+.a2 {
+    text-decoration: none;
+    color: #DBE2EF;
+    font-weight: 700;
+
+}
+
+.a2:hover {
+    font-size: 20px;
+    transition: all 0.5s ease-in;
+    text-decoration: underline;
+
+}
+
+h3 {
+    font-size: 25px;
+    padding: 15px;
+    text-decoration: underline;
+}
+

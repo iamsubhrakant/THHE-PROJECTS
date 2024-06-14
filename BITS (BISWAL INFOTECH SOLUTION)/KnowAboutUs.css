@@ -1,0 +1,401 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+
+}
+
+body {
+    background-color: #072342;
+}
+
+.navbar {
+    background-color: black;
+    height: 60px;
+    width: 1440px;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    justify-content: left;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.navbar:hover {
+    background-color: #05162a;
+    transition: all 0.8s ease-out;
+
+
+}
+
+.websitelogo {
+    width: 200px;
+    height: 45px;
+    border: 2px solid transparent;
+    background-image: url(companylogo-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.homemenu {
+    color: white;
+    width: 200px;
+    height: 45px;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.homemenu:hover {
+    background-color: #3F72AF;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+    cursor: p;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+
+}
+
+.copyright {
+    height: 50px;
+    width: 1440px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+
+
+
+}
+
+.copyrightwrite {
+    padding-left: 630px;
+
+
+
+}
+
+.footertab {
+    width: 1440px;
+    height: 230px;
+    background-color: black;
+    color: #DBE2EF;
+    text-align: center;
+
+}
+
+.footer {
+    font-size: 15px;
+    padding: 10px;
+}
+
+
+
+
+.last {
+    width: 1440px;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.socialmedias {
+    width: 1440px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #DBE2EF;
+
+}
+
+.instagram {
+    background-image: url(39386d212ac9a4626cd4f3fb25466503-removebg-preview.png);
+    height: 35px;
+    width: 35px;
+    background-size: cover;
+    margin: 10px;
+
+}
+
+.whatsapp {
+    background-image: url(whatsapp-logo-icon-isolated-on-transparent-background-free-png.webp);
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    margin: 10px;
+
+
+}
+
+.twitter {
+    background-image: url(twitter-logo-twitter-logo-transparent-twitter-icon-transparent-free-free-png.webp);
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    margin: 10px;
+
+
+}
+
+.linkedin {
+    background-image: url(linkedin-logo-linkedin-icon-transparent-free-png.webp);
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    margin: 10px;
+}
+
+.gmail {
+    background-image: url(Gmail_Logo_512px.png);
+    height: 25px;
+    width: 35px;
+    background-size: cover;
+    margin: 15px;
+}
+
+.a2 {
+    text-decoration: none;
+    color: #DBE2EF;
+    font-weight: 700;
+
+}
+
+.a2:hover {
+    font-size: 20px;
+    transition: all 0.5s ease-in;
+    text-decoration: underline;
+    color: red;
+
+}
+
+h3 {
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: underline;
+}
+
+.welcomemessage {
+    height: 70px;
+    width: 1440px;
+    background-color: #3F72AF;
+    font-size: 55px;
+    color: #DBE2EF;
+    font-weight: 800;
+    text-align: center;
+}
+
+.content {
+    height: 800px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    gap: 0px;
+
+
+}
+
+.whitebox {
+    padding: 10px;
+    width: 900px;
+    height: 450px;
+    background-color: black;
+    text-align: center;
+    border-radius: 2%;
+
+}
+
+.foundernote {
+    color: #DBE2EF;
+    font-size: 4em;
+    margin-top: -100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    
+}
+
+pre {
+    color: #DBE2EF;
+    font-size: 1.25em;
+    margin-top: 1em;
+    font-weight: 600;
+    text-align: left;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.socialtab {
+    display: inline;
+    height: 200px;
+    width: 400px;
+    background-color:transparent;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.contentflex {
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+    width: 900px;
+    flex-direction: column;
+    gap: 0px;
+    margin: 2px;
+    background-color: black;
+    
+
+
+
+}
+
+.thebigbox {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 1050px;
+    width: 100%;
+}
+
+
+.sociallogo1 {
+    height: 30px;
+    width: 400px;
+    margin: 2.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 5px;
+    
+
+
+}
+
+.socialmedialogo{
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+}
+
+.socialmedialink{
+    height: 25px;
+    width: 400px;
+    margin: 2px;
+    justify-content: center;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+
+
+}
+
+#INSTAGRAMLOGO{
+    background-image: url(39386d212ac9a4626cd4f3fb25466503-removebg-preview.png);
+    background-size: cover;
+   
+
+}
+
+#WHATSAPPLOGO {
+    background-image: url(whatsapp-logo-icon-isolated-on-transparent-background-free-png.webp);
+    background-size: cover;
+
+
+}
+
+#TWITTERLOGO {
+    background-image: url(twitter-logo-twitter-logo-transparent-twitter-icon-transparent-free-free-png.webp);
+    background-size: cover;
+
+
+}
+
+#LINKEDINLOGO {
+    background-image: url(linkedin-logo-linkedin-icon-transparent-free-png.webp);
+    background-size: cover;
+    
+}
+
+#GMAILLOGO {
+    background-image: url(Gmail_Logo_512px.png);
+    background-size: cover;
+    height: 15px;
+    width: 25px;
+}
+
+.a5{
+    font-weight: 200;
+    font-size: 17.5px;
+    font-family: cursive;
+
+}
+
+.a5:hover{
+    font-weight: 700;
+    font-size: 17.5px;
+    font-family: cursive;
+    color: red;
+
+}
+
+.picture{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: #3F72AF;
+    border: 5px solid black;
+ margin: 30px;
+ background-image: url("img_1580-fotor-2024022894158.png");
+ background-size: contain;
+
+}
+
+
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.quote{
+
+    font-size: 28px;
+    background-color: #DBE2EF;
+    padding: 30px;
+    border:4px solid black;
+    font-weight: 700;
+
+}
+
+
+
