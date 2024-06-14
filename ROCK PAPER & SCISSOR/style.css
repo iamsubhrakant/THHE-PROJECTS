@@ -1,0 +1,100 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(14, 125, 114);
+    color: azure;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    height: 13vh;
+    width: 100%;
+    background-color: rgb(5, 92, 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav h1{
+    font-size: 3.8vh;
+    text-align: center;
+    background-color: rgb(5, 92, 84);
+}
+
+#rock, #paper,  #scissor{
+    height: 16vw;
+    width: 16vw;
+    background-color: azure;
+    background-size: cover;
+    border-radius: 50%;
+    
+    
+}
+
+#rock:hover {
+    border: 1vh solid black;
+    
+}
+
+#paper:hover {
+    border: 1vh solid black;
+}
+
+
+#scissor:hover {
+    border: 1vh solid black;
+}
+
+
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 24vw;
+    
+}
+
+#rock {
+    background-image: url(rock.png);
+}
+
+#paper{
+    background-image: url(paper.png);
+}
+
+#scissor{
+    background-image: url(scissors.png);
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-score, .user-score-number , .ai-score, .ai-score-number, .score{
+    text-align: center;
+    margin: 2vw;
+    font-size: 7vh;
+   
+}
+
+.playurmove{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score{
+    display: inline;
+    background-color: black;
+    text-align: center;
+    padding: 1vh;
+    border-radius: 3vh;
+    font-size: 6vh;
+    border: 0.5vh solid black;
+
+}
+
