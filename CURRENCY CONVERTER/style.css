@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+body {
+    background-color: #020723;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+}
+
+.container {
+
+  
+    background-color: #3445a4;
+    padding: 2vw;
+    margin: auto;
+    border-radius: 5%;
+    height: 47vh;
+    border: 0.3vh solid white;
+
+}
+
+h1{
+    margin: 1vw 1.5vw 3vw 0vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+.dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+
+input{
+    width: 95%;
+    padding: 2vh 0vh 2vh 1vh;
+    font-size: large;
+    font-weight:500;
+    height: 1vh;
+    margin: 1vh 0vh 4vh 0vh;
+    border: 0.25vh solid black;
+    border-radius: 1vh;
+}
+
+p{
+    font-size: 2.5vh;
+    font-weight: 500;
+    color: white;
+}
+
+.btn{
+    width: 95%;
+    padding: 2vh 0vh 4vh 1vh;
+    font-size: large;
+    font-weight:600;
+    height: 1vh;
+    margin: 3vh 0vh 4vh 0vh;
+    border-radius: 1vh;
+    background-color: #141c4c;
+    color: white;
+    border: 0.2vh solid white;
+
+}
+
+.select-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 14.5vh;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1vh;
+    padding-left: 0.6vh;
+    border-radius: 1vh;
+    
+}
+
+img{
+    background-size: contain;
+    height: 5vh;
+    width: 5vh;
+   
+}
+
+select{
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 2vh;
+    margin: 10% ;
+    font-family: monospace;
+    font-weight: 500 ;
+}
+
+i{
+    color: white;
+    font-size: 3vh;
+    margin-top: 3vh;
+}
+
+.msg{
+    padding: 0.2vh;
+    text-align: center;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    
+}
+
+.msgdiv{
+    margin-top: 4vh;
+    height: 3vh;
+    width: 40vh;
+    background-color: #ffffff;
+    border-radius: 1vh;
+    
+    
+    
+}
